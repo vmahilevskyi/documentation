@@ -3583,7 +3583,7 @@ main:
     parent: csm_review_remediate
     identifier: csm_jira
     weight: 72
-  - name: Automate Security Workflows
+  - name: Automate Workflows
     url: security/cloud_security_management/workflows
     parent: csm_review_remediate
     identifier: csm_workflow_automation
