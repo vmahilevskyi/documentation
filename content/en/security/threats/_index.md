@@ -27,6 +27,11 @@ CSM Threats uses the Datadog Agent to monitor your environment. If you don't alr
 
 ## Proactively block threats with Active Protection
 
+{{< callout url="https://docs.google.com/forms/d/e/1FAIpQLSfzQARsTPr3tiJDnS_4bGx7w35LDfAbGUggaUzHYoL0dIUMWQ/viewform" btn_hidden="false" header="Active Protection">}}
+
+Datadog is introducing a new feature called Active Protection to address the crypto threats detected in your environment automatically. Active Protection is in private beta. Fill out the form to request access.
+{{< /callout >}}
+
 By default, all OOTB Agent crypto mining threat detection rules are enabled and actively monitoring for threats.
 
 [Active Protection][10] enables you to proactively block and terminate crypto mining threats identified by the Datadog Agent threat detection rules.
@@ -51,10 +56,14 @@ Investigate and triage security signals in the [Signals Explorer][8]. View detai
 
 {{< img src="security/cws/signals_explorer.png" alt="CSM Signals Explorer page" width="100%">}}
 
-{{< callout url="https://docs.google.com/forms/d/e/1FAIpQLSfzQARsTPr3tiJDnS_4bGx7w35LDfAbGUggaUzHYoL0dIUMWQ/viewform" btn_hidden="false" header="Active Protection">}}
+## Cloud Workload Security Platform and Feature Matrix
 
-Datadog is introducing a new feature called Active Protection to address the crypto threats detected in your environment automatically. Active Protection is in private beta. Fill out the form to request access.
-{{< /callout >}}
+
+|      | Linux eBPF    | Linux eBPFLess (Fargate) | Windows |
+| ---  | ----------- | ----------- | ----------- |
+| Functional tests  | {{< X >}} | {{< X >}} | {{< X >}} |
+| E2E tests  | {{< X >}} | {{< X >}} |   |
+| Dogfooding  | {{< X >}} |   |   |
 
 ## Get started
 
