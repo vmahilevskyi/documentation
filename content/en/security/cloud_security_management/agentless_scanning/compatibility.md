@@ -2,7 +2,9 @@
 title: CSM Agentless Scanning Compatibility Matrix
 ---
 
-## Linux distributions
+## Linux
+
+### Distributions
 
 The following Linux distributions are supported for hosts and containers scans:
 
@@ -23,6 +25,16 @@ The following Linux distributions are supported for hosts and containers scans:
 | Photon OS                | 1.0, 2.0, 3.0, 4.0                                  | tdnf/yum/rpm     | [https://packages.vmware.com/photon/photon_cve_metadata/][12]                                             |
 | Debian GNU/Linux         | 7, 8, 9, 10, 11, 12 (unstable/sid is not supported) | apt/dpkg         | [https://security-tracker.debian.org/tracker/][13] and [https://www.debian.org/security/oval/][14]        |
 | Ubuntu                   | All versions supported by Canonical                 | apt/dpkg         | [https://ubuntu.com/security/cve][15]                                                                     |
+
+### File system
+
+The following Linux file systems are supported:
+
+- ext2
+- ext3
+- ext4
+- xfs
+- btrfs
 
 ## Software Composition Analysis
 
