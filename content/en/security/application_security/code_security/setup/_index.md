@@ -28,7 +28,10 @@ Before setting up Code Security, ensure the following prerequisites are met:
 
 ## Code Security Enablement Types
 
-There are two main approaches to enable Code Security on your tracing libraries: Single-Step Instrumentation and Datadog Tracing Libraries.
+There are two main approaches to enable Code Security on your tracing libraries: 
+
+- Single-Step Instrumentation
+- Datadog Tracing Libraries
 
 ### Single-Step Instrumentation
 
