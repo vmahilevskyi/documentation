@@ -24,7 +24,7 @@ further_reading:
     text: "Automate common security tasks and stay ahead of threats with Datadog Workflows and Cloud SIEM"
 ---
 
-{{< learning-center-callout header="Join an enablement webinar session" btn_title="Sign Up" btn_url="https://www.datadoghq.com/technical-enablement/sessions/?tags.topics-0=Incidents">}}
+{{< learning-center-callout header="Join an enablement webinar session" hide_image="true" btn_title="Sign Up" btn_url="https://www.datadoghq.com/technical-enablement/sessions/?tags.topics-0=Incidents">}}
   Explore and register for Foundation Enablement sessions. Learn how Datadog Incident Management enables DevOps teams and SREs to more effectively manage their incident response workflows from start to finish, saving time and reducing frustration when it matters most.
 {{< /learning-center-callout >}}
 
@@ -181,6 +181,7 @@ For more information about Incident Management graphs, see [Incident Management 
 In addition to integrating with [Slack][7], Incident Management also integrates with:
 
 - [PagerDuty][13] and [OpsGenie][14] to send incident notifications to your on-call engineers.
+- [CoScreen][21] to launch collaborative meetings with multi-user screen sharing, remote control, and built-in audio and video chat.
 - [Jira][15] to create a Jira ticket for an incident.
 - [Webhooks][16] to send incident notifications using webhooks (for example, [sending SMS to Twilio][17]).
 - [Statuspage][19] to create and update Statuspage incidents.
@@ -214,3 +215,4 @@ Work through an example workflow in the [Getting Started with Incident Managemen
 [18]: /getting_started/incident_management
 [19]: /integrations/statuspage/
 [20]: /integrations/servicenow/
+[21]: /coscreen
